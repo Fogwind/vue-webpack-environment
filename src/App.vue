@@ -1,6 +1,11 @@
 <template>
   <div class="app-page">
-      <my-home></my-home>
+    
+      <h1 @click="test">测试stylus样式</h1>
+   
+      
+      <!-- <my-home></my-home> -->
+      <router-view/>
   </div>
 </template>
 
@@ -15,10 +20,18 @@
         return {
          
         }
+    },
+    methods: {
+      test() {
+        // console.log(123);
+        // alert(123);
+        this.$router.push({name: 'about'});
+      }
     }
   }
 </script>
 
-<style lang="scss" scoped>
-  
+<style lang="stylus" scoped>
+  .app-page
+    text-align left
 </style>

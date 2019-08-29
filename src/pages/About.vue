@@ -14,7 +14,7 @@ import getData from '../assets/js/until.js'
         }
     },
     created() {
-        this.fetchData('One Punch Man');
+        this.fetchData('Onepiece');
     },
     methods: {
         async fetchData(str) {

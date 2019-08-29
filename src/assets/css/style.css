@@ -5,10 +5,10 @@
 html,body{
     width: 100%;
     height: 100%;
-    background: #eb7777;
-    color:#ffffff;
+    /* background: #eb7777; */
+    color:#f15959;
 }
-body{
+/* body{
     background-image: url(../img/car.jpg);
     background-size: cover;
-}
+} */

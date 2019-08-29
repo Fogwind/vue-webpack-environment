@@ -10,13 +10,14 @@ import './assets/css/style.css'
 import './assets/css/index.scss'
 import getData from './assets/js/until.js'
 import App from './App.vue'
-
+import router from './router';
 /**** 关于.babelrc与babel.config.js是两种配置babel的写法，在官方文档中可以查看具体信息  https://www.cnblogs.com/wuguanglin/p/10593013.html
  * babel.config.js
  */
 
 //如果 Vue 实例在实例化时没有收到 el 选项，则它处于“未挂载”状态，没有关联的 DOM 元素。可以使用 vm.$mount() 手动地挂载一个未挂载的实例。
 new Vue({
+  router,
   render:h => h(App)
 }).$mount('#root')
 // var app = new Vue({
