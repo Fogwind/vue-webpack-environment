@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
-    "lodash": "^4.17.14",
+    "lodash": "^4.17.21",
     "vue": "^2.6.10",
     "vue-router": "^3.0.7",
     "vue-skeleton-webpack-plugin": "^1.2.2"
